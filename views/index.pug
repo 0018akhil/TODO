@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title TODO
+        style
+            include style.css
+            
+    body
+        form(action="/", method="post")
+            input(class="list",type="text", name="list", required)
+            input(class="btn",type="submit", value="Add")       
+        div(class="container")
+            form(action="/cheaked", method="post")
+                    div(class="items")
+                        table
+                            each val in items
+                                tr
+                                    td
+                                        label(for="done", class="task") #{val.itemName}
+                                    td
+                                        button(type="submit", name="taskname", value=val.itemName, class="deletebtn") Done
+
+
