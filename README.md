@@ -1,7 +1,6 @@
 # TODO
-## Todo web app with Node.js &amp; MongoDB
 
-## TODO list in the browser
+## Todo web app with Node.js(server) & MongoDB(database).
 ![Screenshot (158)](https://user-images.githubusercontent.com/62931444/100341053-14aecd00-3002-11eb-891e-09575ada4fd5.png)
 
 ## When we add the items into it i.e out tasks, those will automatically saved to MongoDB.
